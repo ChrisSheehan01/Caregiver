@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "intent": "GetMedicineIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "GetWakeTimeIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "GetMemoryGameTimeIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "GetMemoryGameScoreIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "GetMemoryGameTimeAndScoreIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "GetGPSIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "GetWemoIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "EndCaregiver"
+    }
+  ]
+}
+
