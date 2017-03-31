@@ -19,6 +19,15 @@
       ]
     },
     {
+      "intent": "GetMemoryGameIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
       "intent": "GetMemoryGameTimeIntent",
       "slots": [
         {
