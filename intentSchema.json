@@ -73,6 +73,15 @@
       ]
     },
     {
+      "intent": "GetJournalIntent",
+      "slots": [
+        {
+          "name": "patient",
+          "type": "PATIENT_LIST"
+        }
+      ]
+    },
+    {
       "intent": "EndCaregiver"
     }
   ]

@@ -1,9 +1,4 @@
-GetMedicineIntent when did {patient} take their medicine
-GetMedicineIntent when did {patient} take his medicine
-GetMedicineIntent when did {patient} take her medicine
-GetMedicineIntent what time did {patient} take their medicine
-GetMedicineIntent what time did {patient} take his medicine
-GetMedicineIntent what time did {patient} take her medicine
+GetMedicineIntent did {patient} take their medicine today
 
 GetWakeTimeIntent when did {patient} wake up
 GetWakeTimeIntent what time did {patient} wake up
@@ -29,5 +24,7 @@ GetMemoryGameTimeAndScoreIntent what time did {patient} take the memory quiz tod
 GetGPSIntent where was {patient} last
 
 GetWemoIntent are {patient} lights on
+
+GetJournalIntent what was {patient} last journal entry
 
 EndCaregiver stop care giver
