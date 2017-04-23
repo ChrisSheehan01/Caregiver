@@ -12,7 +12,7 @@ ask = Ask(app, "/")
 noEndpointMsg = 'no endpoint exists'
 logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 local_url = 'http://localhost:8080/api'
-pegasus_ngrok_url = 'https://8887eddd.ngrok.io/api' # DEAD URL
+pegasus_ngrok_url = 'https://3296cf30.ngrok.io'
 url_to_use = pegasus_ngrok_url
 questionMsg = 'Any other questions?'
 
